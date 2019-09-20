@@ -1,0 +1,267 @@
+// main: ../style.less
+
+.intro__inner {
+    margin-top: 9rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.intro__photo {
+    width: 50%;
+    margin-right: 6rem;
+
+
+    img {
+        border-radius: 50%;
+    }
+
+}
+
+.intro__content {
+    width: 50%;
+}
+
+.intro__title {
+    font-size: 4rem;
+    color: @black;
+    font-weight: 700;
+}
+
+.intro__subtitle {
+     font-size: 1.5rem;
+     color: @black;
+     font-weight: 700;
+     margin-bottom: 2rem;
+}
+
+.intro__link {
+    display: flex;
+    margin-right: 20px;
+}
+
+.intro__resume{
+    padding: 2.75rem 1.2rem;
+    font-size: 0.9rem;
+    color: @white;
+    width: 100px;
+    height: 100px;
+    background: @red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+    &:hover {
+    background-color: @red-dark;
+    }
+
+}
+
+.intro__skills {
+    padding: 2.75rem 1.2rem;
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    color: @white;
+     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    width: 100px;
+    height: 100px;
+    background: @yellow;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+    &:hover {
+    background-color: @yellow-dark;
+    }
+
+}
+
+.intro__contacts {
+     padding: 2.75rem 0.7rem;
+     margin-left: 2rem;
+     font-size: 0.9rem;
+     color: @white;
+     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    width: 100px;
+    height: 100px;
+    background: @green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+    &:hover {
+    background-color: @green-dark;
+    }
+
+}
+
+ .intro__text {
+      margin-top: 1rem;
+}
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+
+    .nav {
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .intro__inner {
+        margin-top: 9rem;
+        display: table-cell;
+        justify-content: center;
+}
+
+    .intro__photo {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+        img {
+        border-radius: 50%;
+    }
+}
+
+    .intro__photo1 {
+         margin-top: 3rem;
+         width: 200px;
+         height: 200px;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+    .intro__content {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+}
+    .intro__title {
+         font-size: 2.8rem;
+
+}
+
+    .intro__subtitle {
+     font-size: 1.2rem;
+
+}
+    .intro__link {
+        display: flex;
+        justify-content: center;
+
+}
+    .intro__resume {
+        margin-left: 1rem;
+         margin-left: 2rem;
+         color: @white;
+         width: 80px;
+         height: 50px;
+        font-size: 0.65rem;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-weight: 700;
+
+
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    }
+
+    .intro__skills,
+    .intro__contacts {
+         margin-left: 0.5rem;
+         color: @white;
+         width: 80px;
+         height: 50px;
+        font-size: 0.65rem;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-weight: 700;
+
+
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+
+    }
+
+}
+
+
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+    .intro__inner {
+        margin-top: 9rem;
+        display: table-cell;
+        justify-content: center;
+}
+
+    .intro__photo {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+        img {
+        border-radius: 50%;
+    }
+}
+
+    .intro__photo1 {
+         margin-top: 3rem;
+         width: 300px;
+         height: 300px;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+    .intro__content {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+}
+
+    .intro__link {
+        display: flex;
+        justify-content: center;
+
+}
+     .intro__text {
+         padding: 1rem 1rem;
+          justify-content: center;
+
+}
+
+    .intro__resume {
+        margin-left: 1rem;
+
+    }
+    .intro__skills,
+    .intro__contacts {
+         margin-left: 2rem;
+    }
+
+}
+
+
+
+

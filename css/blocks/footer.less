@@ -1,0 +1,171 @@
+// main: ../style.less
+
+.footer {
+     padding: 5rem 0;
+     margin-top: 10rem;
+     background-color: @gray;
+}
+
+.footer__inner {
+     display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__block{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+     align-items: center;
+}
+
+.footer__icon {
+    width: 40px;
+    height: 40px;
+    padding: 0.7rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+    color: @white;
+}
+
+.phone:hover {
+    border-color: #4dd417;
+    box-shadow: 0px 0px 45px #4dd417;
+    color: #4dd417;
+}
+
+.mail:hover {
+     border-color: #49b9f5;
+    box-shadow: 0px 0px 45px #49b9f5;
+    color: #49b9f5;
+}
+
+.plus:hover {
+    border-color: #d12168;
+    box-shadow: 0px 0px 45px #d12168;
+    color: #d12168;
+}
+
+.heart:hover {
+    border-color: #e30e0e;
+    box-shadow: 0px 0px 45px #e30e0e;
+    color: #e30e0e;
+}
+
+.footer__content {
+    padding-left: 9px;
+}
+
+.footer__title {
+    padding-top: 0.5rem;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+    list-style: 1.4rem;
+    color: @white;
+    font-weight: bold;
+    }
+
+.footer__subtitle {
+    padding-top: 0.5rem;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+    list-style: 1.4rem;
+    color: @white;
+    font-weight: bold;
+}
+
+.footer__link {
+    color: @white;
+    width: 2rem;
+    height: 2rem;
+    padding-left: 0.2rem;
+    text-decoration: none;
+
+}
+
+
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+
+
+   .footer {
+    min-width: 320px;
+    max-width: 480px;
+     padding: 2rem 0;
+     margin-top: 2rem;
+     background-color: @gray;
+
+       justify-content: center;
+}
+
+    .footer__inner {
+      display: flex;
+      justify-content: center;
+}
+    .footer__block{
+       padding-top: 0.5rem;
+       justify-content: center;
+}
+
+}
+
+@media (min-width : 1024px) and (max-width : 1366px) {
+
+    .footer {
+     min-width: 1024px;
+     max-width: 1366px;
+     padding: 2rem 0;
+     margin-top: 3rem;
+     background-color: @gray;
+}
+
+    .footer__inner {
+      padding: 1rem 1rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+}
+    .footer__block{
+       padding-top: 0.5rem;
+       justify-content: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
